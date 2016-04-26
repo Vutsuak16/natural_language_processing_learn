@@ -11,4 +11,10 @@ print("\n")
 Celsius = [39.2, 36.5, 37.3, 37.8]
 Fahrenheit = map(lambda x: (float(9) / 5) * x + 32, Celsius)
 for i in Fahrenheit:
-    print(i,end=" ")
+    print(i, end=" ")
+
+print("\n")
+
+filtered = filter(lambda x: x % 2 == 0, m)
+for i in filtered:
+    print(i, end=" ")
