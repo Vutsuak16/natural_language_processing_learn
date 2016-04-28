@@ -38,3 +38,7 @@ for i in to_upper:
     print(i, end=" ")
 
 print("\n")
+
+a = ["x", "y", "z"]
+s="-"
+print(s.join(a))
