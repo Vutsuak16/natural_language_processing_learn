@@ -1,4 +1,3 @@
-from itertools import islice
 
 l = ["kaustuv", "is", "a", "good", "boy", "code", "is", "life", "hi", "guys", "jai", "hanuman"]
 k = []
